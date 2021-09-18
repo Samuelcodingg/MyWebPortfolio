@@ -1,0 +1,17 @@
+/*generals*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    min-height: 100vh;
+}
+
+/*me*/
+
+.me-photo {
+    height: 380px;
+}
