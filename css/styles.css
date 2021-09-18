@@ -15,3 +15,9 @@ body {
 .me-photo {
     height: 380px;
 }
+
+/*projects*/
+
+.project-img {
+    height: 250px;
+}
