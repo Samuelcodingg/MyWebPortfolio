@@ -1,6 +1,9 @@
-
+const links = document.querySelectorAll('a');
 
 document.addEventListener('DOMContentLoaded', ()=> {
+
+    //initLinks
+    initLinks();
 
     //linkscroll
     linksScroll();
@@ -8,6 +11,12 @@ document.addEventListener('DOMContentLoaded', ()=> {
     //showAnimations
     showScrollAnimations();
 })
+
+function initLinks() {
+    links.forEach((link)=>{
+        link.target = '_blank';
+    })
+}
 
 function linksScroll() {
     $('#moveToAboutMe').click(function(e){
@@ -25,7 +34,7 @@ function linksScroll() {
     $('#moveToTech').click(function(e){
         e.preventDefault();
         var codigo = "#" + $(this).data("scroll");
-        $("html,body").animate({scrollTop: $(codigo).offset().top='1700px'},0);
+        $("html,body").animate({scrollTop: $(codigo).offset().top='1780px'},0);
     });
 
     $('#moveToCV').click(function(e){

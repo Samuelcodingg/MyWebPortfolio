@@ -34,6 +34,23 @@ body {
     height: 230px;
 }
 
+.project img {
+    transition: all 300ms;
+}
+
+.project:hover img {
+    filter: brightness(40%);
+}
+
+.project:hover .project-buttons {
+    opacity: 1;
+}
+
+.project-buttons {
+    top: -60px;
+    opacity: 0;
+}
+
 /*tech*/
 
 
