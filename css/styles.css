@@ -19,5 +19,22 @@ body {
 /*projects*/
 
 .project-img {
-    height: 250px;
+    height: 230px;
+}
+
+/*tech*/
+
+.tech-img {
+    height: 100px;
+}
+
+/*resume*/
+.resume {
+    height: 1100px;
+}
+
+/*contact*/
+
+.contact-icon {
+    height: 200px;
 }
