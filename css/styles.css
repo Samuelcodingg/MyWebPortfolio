@@ -8,6 +8,7 @@
 body {
     background-image: url(../img/background.jpg);
     min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*me*/
@@ -17,6 +18,10 @@ body {
 }
 
 /*projects*/
+
+.projects {
+    margin-top: 110px !important;
+}
 
 .project-img {
     height: 230px;
@@ -37,4 +42,22 @@ body {
 
 .contact-icon {
     height: 200px;
+}
+
+/*personalization responsive*/
+
+@media(max-width: 519px) {
+    .me-photo {
+        height: 250px;
+    }
+
+    .project-img {
+        height: 150px;
+    }
+}
+
+@media(max-width: 338px) {
+    .project-img {
+        height: 100px;
+    }
 }
