@@ -11,17 +11,24 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/*utilities*/
+
+.pointer {
+    cursor: pointer;
+}
+
 /*me*/
 
 .me-photo {
     height: 380px;
 }
 
-/*projects*/
-
-.projects {
-    margin-top: 110px !important;
+.introduction {
+    margin-top: 180px;
+    margin-bottom: 80px;
 }
+
+/*projects*/
 
 .project-img {
     height: 230px;
@@ -29,8 +36,15 @@ body {
 
 /*tech*/
 
+
+
+.tech:hover .tech-img{
+    height: 80px;
+}
+
 .tech-img {
     height: 100px;
+    transition: all 300ms;
 }
 
 /*resume*/
@@ -42,6 +56,11 @@ body {
 
 .contact-icon {
     height: 200px;
+    transition: all 300ms;
+}
+
+.contact-icon:hover {
+    height: 150px;
 }
 
 /*personalization responsive*/
