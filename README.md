@@ -1,4 +1,4 @@
 # MyWebPortfolio
-My personal web portfolio, visit it :) link: https://priceless-murdock-10a43f.netlify.app/
+My personal web portfolio, visit it :) link: https://elastic-bhaskara-e30a5e.netlify.app/
 
 
